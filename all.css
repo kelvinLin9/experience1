@@ -1,0 +1,248 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-940 {
+  width: 940px;
+}
+
+.w-300 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.w-640 {
+  width: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-30-auto {
+  margin: 30px auto;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jcsa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h1 a {
+  background: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/logo-all-dark.svg);
+  background-size: cover;
+  width: 224px;
+  height: 50px;
+  display: block;
+  text-indent: 201%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu li {
+  margin: 0 30px;
+}
+
+.menu a {
+  color: #3F5D45;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.menu a:hover {
+  border-bottom: 5px solid #3F5D45;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+}
+
+.aside h2 {
+  padding: 32px 24px;
+  color: #fff;
+  background-color: #3F5D45;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.aside li a {
+  font-weight: bolder;
+  color: #3F5D45;
+  display: block;
+  padding: 32px 24px;
+}
+
+.aside li:hover {
+  color: #3F5D45;
+  background-color: #e7eeea;
+}
+
+.aside ul {
+  text-align: center;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product li {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.product-name {
+  width: 173px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.product-price {
+  width: 127px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.layer {
+  position: absolute;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.layer p {
+  width: 36px;
+  color: #EAF0ED;
+  background-color: #3F5D45;
+  line-height: 1.5;
+  padding: 12px 10px;
+  margin-top: -20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.layer a {
+  position: relative;
+  margin-left: 200px;
+}
+
+h3 {
+  color: #3F5D45;
+  font-weight: bolder;
+}
+
+.addCart {
+  font-size: 24px;
+  text-align: center;
+  background-color: #EAF0ED;
+  font-weight: bolder;
+}
+
+.addCart a {
+  display: block;
+  color: #3F5D45;
+  padding: 20px 0;
+}
+
+.addCart:hover {
+  font-size: 28px;
+}
+
+.nextPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: -30px;
+}
+
+.nextPage li {
+  outline: 1px solid #e7eeea;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nextPage li a {
+  display: block;
+  padding: 20px;
+  color: #3F5D45;
+}
+/*# sourceMappingURL=all.css.map */

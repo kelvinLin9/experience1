@@ -1,0 +1,200 @@
+$primary: #3F5D45;
+$secondary: #EAF0ED;
+
+*,*::before,*::after{
+  box-sizing:border-box ;
+}
+
+
+a {
+  text-decoration: none;
+}
+.w-940 {
+  // outline: 1px solid #000;
+  width: 940px;
+}
+.w-300 {
+  // outline: 1px solid #000;
+  width: 300px;
+  display: flex;
+}
+.w-640 {
+  // outline: 1px solid #000;
+  width: 640px;
+  display: flex;
+}
+.m-30-auto {
+  margin: 30px auto;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.jcsa{
+  justify-content: space-around;
+}
+
+
+// 表頭
+.header {
+  display: flex;
+  justify-content: space-between;
+  h1 a{
+    background: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/logo-all-dark.svg);
+    background-size: cover;
+    width: 224px;
+    height: 50px;
+    display: block;
+    text-indent: 201%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+.menu{
+  display: flex;
+  align-items: center;
+  li{
+    margin: 0 30px;
+  }
+  a{
+    color: $primary;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    &:hover{
+      border-bottom:5px solid $primary ;
+    }
+  }
+}
+
+
+//產品
+.main {
+  display: flex;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  h2 {
+    padding: 32px 24px;
+    color: #fff;
+    background-color: $primary;
+    text-align: center;
+    font-weight: bolder;
+  }
+  li {
+    a {
+      font-weight: bolder;
+      color: $primary;
+      display: block;
+      padding: 32px 24px;
+    }
+    &:hover {
+      color: $primary;
+      background-color: #e7eeea;
+    }
+  }
+  ul {
+    text-align: center;
+  } 
+}
+
+
+
+.content {
+  // outline: 1px solid #000;
+  display: flex;
+}
+
+.product{
+  flex-wrap: wrap;
+  li{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  &-name {
+    width: 173px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  &-price {
+    width: 127px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+
+.layer {
+  // outline: 1px solid #000;
+  position: absolute;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  p {
+    width: 36px;
+    color: $secondary;
+    background-color: $primary;
+    line-height: 1.5;
+    padding: 12px 10px;
+    margin-top: -20px;
+    box-sizing: border-box;
+  }
+  a {
+    // outline: 1px solid #000;
+    position: relative;
+    margin-left: 200px;
+  }
+}
+
+
+
+h3{
+  color: $primary;
+  font-weight: bolder;
+}
+
+
+.addCart {
+  font-size: 24px;
+  text-align: center;
+  background-color: $secondary;
+  font-weight: bolder;
+  a{
+    display:block;
+    color: $primary;
+    padding: 20px 0;
+  }
+  &:hover{
+    font-size: 28px;
+  }
+}
+
+
+
+
+.nextPage{
+  display: flex;
+  justify-content: end;
+  margin-top: -30px;
+  li{
+    outline: 1px solid #e7eeea;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+      display: block;
+      padding: 20px;
+      color: $primary;
+    }
+  }
+}
+
